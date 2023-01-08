@@ -1,4 +1,5 @@
 # The following classes are taken from The Udemy course The Complete Data Structures and Algorithms Course in Python by Elshad Karimov
+# My functions start at line 98 
 
 class Node:
     def __init__(self, value=None):
@@ -217,7 +218,7 @@ def deleteEntireTree(rootNode):
 
 
 
-# CREATING THE TREE:
+# CREATING A TREE:
 Drinks = TreeNode("Drinks")
 
 Hot = TreeNode("Hot")
@@ -252,32 +253,4 @@ Apple = TreeNode("Apple")
 Orange = TreeNode("Orange")
 Juice.leftChild = Apple
 Juice.rightChild = Orange
-
-
-# MyPreOrderTraversal(Drinks)
-# MyStackPreOrderTraversal(Drinks)
-# MyInOrderTraversal(Drinks)
-# MyPostOrderTraversal(Drinks)
-# MyLevelOrderTraversal(Drinks)
-
-# FindNode(Drinks, "Try")
-# FindNode(Drinks, "Juice")
-
-# newNode = TreeNode("Mango")
-# insertNode(Drinks, newNode)
-# MyLevelOrderTraversal(Drinks)
-
-#
-# Food = TreeNode("Food")
-# DeepestNode = GetDeepestNode(Food)
-# deleteDeepestNode(Food, DeepestNode)
-# MyLevelOrderTraversal(Food)
-
-# DeepestNode = GetDeepestNode(Drinks)
-# deleteDeepestNode(Drinks, DeepestNode)
-
-deleteEntireTree(Drinks)
-MyLevelOrderTraversal(Drinks)
-p=0
-
 
