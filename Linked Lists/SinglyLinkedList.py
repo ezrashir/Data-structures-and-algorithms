@@ -19,7 +19,7 @@ class SLinkedList:
            
            
            
-All the additional functions in this code are my work:
+# All the additional functions in this code are my work:
 
 class Node:
     def __init__(self, value=None):
