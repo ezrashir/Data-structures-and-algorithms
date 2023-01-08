@@ -1,4 +1,6 @@
 # The following classes are taken from The Udemy course The Complete Data Structures and Algorithms Course in Python by Elshad Karimov
+# My functions (from line 100) uses the following classes.
+
 
 class Node:
     def __init__(self, value=None):
